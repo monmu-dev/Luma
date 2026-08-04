@@ -17,7 +17,7 @@ public class ConfigDto
 
 public static class ConfigState
 {
-    private static readonly string ConfigPath = "luma_config.json";
+    private static readonly string ConfigPath = Path.Combine(System.AppContext.BaseDirectory, "luma_config.json");
 
     public static void Load()
     {

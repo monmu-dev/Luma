@@ -20,7 +20,7 @@ public class AboutScreen : Screen
         Console.WriteLine(Pad("")); // Empty line
         
         Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}Github:{ConsoleHelper.Reset}"));
-        Console.WriteLine(Pad($"  {ConsoleHelper.Accent}github.com/monmu{ConsoleHelper.Reset}"));
+        Console.WriteLine(Pad($"  {ConsoleHelper.Accent}github.com/monmu-dev{ConsoleHelper.Reset}"));
         
         Console.WriteLine(Pad(""));
         Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}[Press Esc or Backspace to return]{ConsoleHelper.Reset}"));

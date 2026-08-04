@@ -28,7 +28,7 @@ public abstract class SettingsScreen : Screen
         
         Console.WriteLine(Pad(""));
         Console.WriteLine(Pad(""));
-        Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}github.com/monmu{ConsoleHelper.Reset}"));
+        Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}github.com/monmu-dev{ConsoleHelper.Reset}"));
         // Fill trailing space for couple lines to avoid artifacts from longer menus
         for(int i=0; i<5; i++) Console.WriteLine(Pad(""));
     }

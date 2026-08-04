@@ -31,8 +31,9 @@ public abstract class MenuScreen : Screen
         // Blank lines to push footer down a bit, or just fixed position
         Console.WriteLine(Pad(""));
         Console.WriteLine(Pad(""));
-        Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}github.com/monmu{ConsoleHelper.Reset}"));
-        Console.WriteLine(Pad("")); // Fill trailing space
+        Console.WriteLine(Pad($"  {ConsoleHelper.TextMuted}github.com/monmu-dev{ConsoleHelper.Reset}"));
+        // Fill trailing space for couple lines to avoid artifacts from longer menus
+        for(int i=0; i<5; i++) Console.WriteLine(Pad(""));
     }
 
     public override void HandleInput(ConsoleKeyInfo key)

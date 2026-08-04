@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Luma/1.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.10",
+          "System.Management": "10.0.10"
+        },
+        "runtime": {
+          "Luma.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/10.0.10": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
+      "System.CodeDom/10.0.10": {
+        "runtime": {
+          "lib/net10.0/System.CodeDom.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
+      "System.Management/10.0.10": {
+        "dependencies": {
+          "System.CodeDom": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.10",
+            "fileVersion": "10.0.1026.32716"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.10",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Luma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IY0lTfC2uVwTizjtGgQ03ViwyXGQ9lMDblzB889/HyguAZJ2J8pRrjPown8h2eJe8WFc8nh+BUEsEPkshzizYQ==",
+      "path": "microsoft.win32.systemevents/10.0.10",
+      "hashPath": "microsoft.win32.systemevents.10.0.10.nupkg.sha512"
+    },
+    "System.CodeDom/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lru5igKxs4OgWKfMeOpMAYpfB1tNSSXHk2zyiSDO/h0u8RVAhN6KqW9d3ANybDB+ePIHg6HM/NlE8HlpOk4k5A==",
+      "path": "system.codedom/10.0.10",
+      "hashPath": "system.codedom.10.0.10.nupkg.sha512"
+    },
+    "System.Management/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U13ksdXfQlF2WDdu3S4ZPVpikFs2HgV3dbJJZLeZpBIQ4z/xCmQnwEf6LsEEIC2zSamVVa1acA9RdVhZwnWKeA==",
+      "path": "system.management/10.0.10",
+      "hashPath": "system.management.10.0.10.nupkg.sha512"
+    }
+  }
+}
